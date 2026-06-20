@@ -6,7 +6,7 @@
 color: var(--primary);
 }
 .textgreen{
-    color: var(--greenColor);
+    color: var(--greenColor) !important;
 }
 .textgreen:hover{
     color: var(--greenColor);
@@ -16,7 +16,9 @@ color: var(--primary);
 }
 
 
-
+.btn-size{
+    width: 10%;
+}
 
 
 
@@ -28,5 +30,19 @@ color: var(--primary);
     .size{
         width: 50%;
     }
+ .btn-size{
+    width: 50%;
+ }   
+}
+
+
+
+
+
+
+@media screen and (min-width:576px) and  (max-width:768px) {
     
+ .btn-size{
+    width: 25%;
+ }   
 }
