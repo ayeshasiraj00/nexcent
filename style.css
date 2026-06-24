@@ -19,8 +19,21 @@ color: var(--primary);
 .btn-size{
     width: 10%;
 }
+.footer{
+background: #263238;
+
+}
+.footer-grey::placeholder{
+    color: white !important;
+}
 
 
+.distribute{
+    width: 
+}
+.footer-grey{
+    background-color: #515b60 !important;
+}
 
 
 
